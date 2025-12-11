@@ -3,6 +3,7 @@ import { nanoid } from "nanoid";
 import Die from "./Die";
 import Confetti from 'react-confetti'
 
+//Forgot to add message to the commit
 
 export default function App() {
   const [dice, setDice] = useState(() => generateRandomNumber());
